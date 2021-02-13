@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: "Open sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+  line-height: 1.4em;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+main {
+  background-color: white;
+  margin: auto;
+  max-width: 500px;
+  /* max-height: 700px; */
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+}
+ul {
+  list-style: decimal;
+  /* margin: 0; */
+  /* padding: 0; */
+  word-break: break-all;
+}
+form {
+  width: 100%;
+}
+form input,
+form label {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+input {
+  border: solid 1px rgb(192, 192, 192);
+  border-radius: 4px;
+  font-size: 1em;
+  height: 34px;
+  padding: 0 10px;
+}
+input:focus {
+  outline: solid 1px green;
+}
+form button {
+  cursor: pointer;
+}
+form button {
+  cursor: pointer;
+}
+form button[type="submit"] {
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgb(31, 161, 53);
+  color: aliceblue;
+  width: 100%;
+}
+form button[type="reset"] {
+  margin-top: 10px;
+  width: 100%;
+  border: solid 1px #dedede;
+  padding: 10px;
+  border-radius: 8px;
+}
+.error-text {
+  font-size: 12px;
+  color: red;
+}
